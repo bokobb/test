@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <context:component-scan base-package="org.bbdev.spring"-->
+<!--                            annotation-config="true"-->
+<!--                            resource-pattern="**/*.class"-->
+<!--                            scoped-proxy="no"-->
+<!--                            use-default-filters="true"-->
+<!--    />-->
+<!--    <context:property-placeholder location="application.properties"/>-->
+
+    <bean id="driver" class="java.lang.String">
+        <constructor-arg type="java.lang.String" value="${db.driver}"/>
+    </bean>
+
+<!--    <bean id="companyRepository" class="org.bbdev.spring.database.repository.CompanyRepository"/>-->
+</beans>
+
+
+<!--<constructor-arg index="2" type="java.util.List">-->
+<!--<list>-->
+<!--    <value>1</value>-->
+<!--    <value>2</value>-->
+<!--    <value>3</value>-->
+<!--    <ref bean="driver"/>-->
+<!--</list>-->
+<!--</constructor-arg>-->
+<!--<constructor-arg type="java.util.Map">-->
+<!--<null/>-->
+<!--</constructor-arg>-->
+<!--<property name="properties">-->
+<!--<map>-->
+<!--    <entry key="url" value="postgreurl"/>-->
+<!--    <entry key="password" value="123"/>-->
+<!--    <entry key="driver" value="#{driver.substring(3)}"/>-->
+<!--    <entry key="test" value="#{driver.length() > 10}"/>-->
+<!--    <entry key="test1" value="#{driver.length() > T(Math).random()* 10}"/>-->
+<!--    <entry key="hosts"  value="#{'${db.host}'.split(',')}"/>-->
+<!--    <entry key="currentUser" value="#{systemProperties['user.name']}"/>-->
+<!--    <entry key="currentUser" value="${user.name}"/>-->
+<!--</map>-->
+<!--</property>-->
