@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component("pool1")
-public class ConnetionPool {
+public class ConnectionPool {
     private final String username;
     private final Integer poolSize;
 
     @Autowired
-    public ConnetionPool(@Value("${db.username}") String username,
-                         @Value("${db.pool.size}") Integer poolSize) {
+    public ConnectionPool(@Value("${db.username}") String username,
+                          @Value("${db.pool.size}") Integer poolSize) {
         this.username = username;
         this.poolSize = poolSize;
 

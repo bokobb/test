@@ -1,13 +1,13 @@
 package org.bbdev.spring.database.repository;
 
-import org.bbdev.spring.database.pool.ConnetionPool;
+import org.bbdev.spring.database.pool.ConnectionPool;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class TestRepository {
-    private final ConnetionPool connetionPool;
+    private final ConnectionPool connetionPool;
 
-    public TestRepository(ConnetionPool connetionPool) {
+    public TestRepository(ConnectionPool connetionPool) {
         this.connetionPool = connetionPool;
     }
 }
