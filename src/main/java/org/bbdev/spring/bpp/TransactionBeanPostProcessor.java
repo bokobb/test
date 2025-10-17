@@ -10,11 +10,12 @@ import java.util.Map;
 
 @Component
 public class TransactionBeanPostProcessor implements BeanPostProcessor {
+
     private final Map<String, Class<?>> transactionBeans = new HashMap<>();
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        if(bean.getClass().isAnnotationPresent(Transaction.class)) {
+        if (bean.getClass().isAnnotationPresent(Transaction.class)) {
             transactionBeans.put(beanName, bean.getClass());
         }
         return bean;
@@ -23,13 +24,13 @@ public class TransactionBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         Class<?> beanClass = transactionBeans.get(beanName);
-        if(beanClass != null) {
-            return Proxy.newProxyInstance(bean.getClass().getClassLoader(), bean.getClass().getInterfaces(),
+        if (beanClass != null) {
+            return Proxy.newProxyInstance(beanClass.getClassLoader(), beanClass.getInterfaces(),
                     (proxy, method, args) -> {
                         System.out.println("Open transaction");
-                        try{
+                        try {
                             return method.invoke(bean, args);
-                        }finally {
+                        } finally {
                             System.out.println("Close transaction");
                         }
                     });

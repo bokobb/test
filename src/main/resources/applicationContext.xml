@@ -7,42 +7,19 @@
                             http://www.springframework.org/schema/context
                             https://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <context:component-scan base-package="org.bbdev.spring"-->
-<!--                            annotation-config="true"-->
-<!--                            resource-pattern="**/*.class"-->
-<!--                            scoped-proxy="no"-->
-<!--                            use-default-filters="true"-->
-<!--    />-->
-<!--    <context:property-placeholder location="application.properties"/>-->
+    <context:component-scan base-package="org.bbdev.spring"
+                            annotation-config="true"
+                            resource-pattern="**/*.class"
+                            scoped-proxy="no"
+                            use-default-filters="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+        <context:include-filter type="assignable" expression="org.bbdev.spring.database.repository.CrudRepository"/>
+        <context:include-filter type="regex" expression="com\..+Repository"/>
+    </context:component-scan>
 
     <bean id="driver" class="java.lang.String">
         <constructor-arg type="java.lang.String" value="${db.driver}"/>
     </bean>
-
-<!--    <bean id="companyRepository" class="org.bbdev.spring.database.repository.CompanyRepository"/>-->
 </beans>
 
 
-<!--<constructor-arg index="2" type="java.util.List">-->
-<!--<list>-->
-<!--    <value>1</value>-->
-<!--    <value>2</value>-->
-<!--    <value>3</value>-->
-<!--    <ref bean="driver"/>-->
-<!--</list>-->
-<!--</constructor-arg>-->
-<!--<constructor-arg type="java.util.Map">-->
-<!--<null/>-->
-<!--</constructor-arg>-->
-<!--<property name="properties">-->
-<!--<map>-->
-<!--    <entry key="url" value="postgreurl"/>-->
-<!--    <entry key="password" value="123"/>-->
-<!--    <entry key="driver" value="#{driver.substring(3)}"/>-->
-<!--    <entry key="test" value="#{driver.length() > 10}"/>-->
-<!--    <entry key="test1" value="#{driver.length() > T(Math).random()* 10}"/>-->
-<!--    <entry key="hosts"  value="#{'${db.host}'.split(',')}"/>-->
-<!--    <entry key="currentUser" value="#{systemProperties['user.name']}"/>-->
-<!--    <entry key="currentUser" value="${user.name}"/>-->
-<!--</map>-->
-<!--</property>-->

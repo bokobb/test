@@ -10,11 +10,12 @@ import java.util.Map;
 
 @Component
 public class AuditingBeanPostProcessor implements BeanPostProcessor {
+
     private final Map<String, Class<?>> auditBeans = new HashMap<>();
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        if(bean.getClass().isAnnotationPresent(Auditing.class)) {
+        if (bean.getClass().isAnnotationPresent(Auditing.class)) {
             auditBeans.put(beanName, bean.getClass());
         }
         return bean;
@@ -23,15 +24,15 @@ public class AuditingBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         Class<?> beanClass = auditBeans.get(beanName);
-        if(beanClass != null) {
-            return Proxy.newProxyInstance(bean.getClass().getClassLoader(), bean.getClass().getInterfaces(),
+        if (beanClass != null) {
+            return Proxy.newProxyInstance(beanClass.getClassLoader(), beanClass.getInterfaces(),
                     (proxy, method, args) -> {
-                        System.out.println("Audit Method: " + method.getName());
+                        System.out.println("Audit method: " + method.getName());
                         var startTime = System.nanoTime();
-                        try{
+                        try {
                             return method.invoke(bean, args);
-                        }finally {
-                            System.out.println("Time executing:" + (System.nanoTime() - startTime));
+                        } finally {
+                            System.out.println("Time execution: " + (System.nanoTime() - startTime));
                         }
                     });
         }
