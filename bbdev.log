@@ -1,0 +1,12 @@
+2025-10-23T23:15:50.659+06:00  INFO 44272 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 44272 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-23T23:15:50.661+06:00  INFO 44272 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
+2025-10-23T23:15:51.002+06:00  INFO 44272 --- [main] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-23T23:15:51.009+06:00  INFO 44272 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-23T23:15:51.014+06:00  INFO 44272 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-23T23:15:51.015+06:00  INFO 44272 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-23T23:15:51.019+06:00  INFO 44272 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-23T23:15:51.023+06:00  INFO 44272 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-23T23:15:51.110+06:00  INFO 44272 --- [main] org.bbdev.spring.ApplicationRunner       : Started ApplicationRunner in 0.757 seconds (process running for 1.15)
+2025-10-23T23:15:51.122+06:00  INFO 44272 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-23T23:15:51.123+06:00  INFO 44272 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-23T23:15:51.123+06:00  INFO 44272 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
