@@ -10,7 +10,6 @@ import org.springframework.context.annotation.*;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.stereotype.Component;
 
-//@ImportResource("classpath:application.xml")
 @Import(WebConfiguration.class)
 @Configuration(proxyBeanMethods = true)
 @PropertySource("classpath:application.properties")
@@ -35,7 +34,8 @@ public class ApplicationConfiguration {
         }
 
         @Bean
-        @Profile("prod&web")
+        @Profile("prod|web")
+//    ! & |
         public UserRepository userRepository2(ConnectionPool pool2) {
                 return new UserRepository(pool2);
         }
@@ -48,16 +48,3 @@ public class ApplicationConfiguration {
                 return new UserRepository(pool3());
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

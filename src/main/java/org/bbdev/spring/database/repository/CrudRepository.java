@@ -1,9 +1,14 @@
 package org.bbdev.spring.database.repository;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
 import java.util.Optional;
 
+@Repository
 public interface CrudRepository<K, E> {
+
     Optional<E> findById(K id);
 
-    void deleteById(E id);
+    void delete(E entity);
 }
