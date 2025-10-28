@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.util.Map;
 
 @Data
@@ -28,4 +27,8 @@ public class Company implements BaseEntity<Integer> {
     @MapKeyColumn(name = "lang")
     @Column(name = "description")
     private Map<String, String> locales;
+
+    public Company(Integer id) {
+        this.id = id;
+    }
 }

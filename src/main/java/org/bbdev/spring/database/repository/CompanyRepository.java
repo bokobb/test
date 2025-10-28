@@ -7,12 +7,10 @@ import org.bbdev.spring.bpp.Auditing;
 import org.bbdev.spring.bpp.Transaction;
 import org.bbdev.spring.database.entity.Company;
 import org.bbdev.spring.database.pool.ConnectionPool;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Scope;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,7 +35,7 @@ public class CompanyRepository implements CrudRepository<Integer, Company> {
     @Override
     public Optional<Company> findById(Integer id) {
         log.info("findById method...");
-        return Optional.of(new Company(id, null, Collections.emptyMap()));
+        return Optional.of(new Company(id));
     }
 
     @Override

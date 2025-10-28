@@ -1,383 +1,403 @@
-2025-10-24T13:03:05.638+06:00  INFO 4364 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 4364 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T13:03:05.642+06:00  INFO 4364 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T13:03:06.035+06:00  INFO 4364 --- [main] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
-2025-10-24T13:03:06.043+06:00  INFO 4364 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T13:03:06.050+06:00  INFO 4364 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T13:03:06.051+06:00  INFO 4364 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T13:03:06.055+06:00  INFO 4364 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T13:03:06.060+06:00  INFO 4364 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T13:03:06.146+06:00  INFO 4364 --- [main] org.bbdev.spring.ApplicationRunner       : Started ApplicationRunner in 0.875 seconds (process running for 1.307)
-2025-10-24T13:03:06.158+06:00  INFO 4364 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T13:03:06.159+06:00  INFO 4364 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T13:03:06.159+06:00  INFO 4364 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T16:54:01.808+06:00  INFO 8763 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 8763 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T16:54:01.810+06:00  INFO 8763 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T16:54:02.144+06:00  INFO 8763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T16:54:02.160+06:00  INFO 8763 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
-2025-10-24T16:54:02.440+06:00  INFO 8763 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T16:54:02.590+06:00  INFO 8763 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77b919a3
-2025-10-24T16:54:02.591+06:00  INFO 8763 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T16:54:02.624+06:00  INFO 8763 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T16:54:02.663+06:00  INFO 8763 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T16:54:02.691+06:00  INFO 8763 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T16:54:02.946+06:00  INFO 8763 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T16:54:03.263+06:00  INFO 8763 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T16:54:03.266+06:00  INFO 8763 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-24T16:54:03.273+06:00  INFO 8763 --- [main] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
-2025-10-24T16:54:03.286+06:00  INFO 8763 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T16:54:03.291+06:00  INFO 8763 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T16:54:03.292+06:00  INFO 8763 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T16:54:03.294+06:00  INFO 8763 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T16:54:03.318+06:00  INFO 8763 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T16:54:03.451+06:00  INFO 8763 --- [main] org.bbdev.spring.ApplicationRunner       : Started ApplicationRunner in 2.008 seconds (process running for 2.514)
-2025-10-24T16:54:03.461+06:00  INFO 8763 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T16:54:03.461+06:00  INFO 8763 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T16:54:03.461+06:00  INFO 8763 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T16:54:03.461+06:00  INFO 8763 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-24T16:54:03.462+06:00  INFO 8763 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T16:54:03.464+06:00  INFO 8763 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:10:02.560+06:00  INFO 19837 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 19837 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:10:02.562+06:00  INFO 19837 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:10:02.872+06:00  INFO 19837 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:10:02.888+06:00  INFO 19837 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:10:03.141+06:00  INFO 19837 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:10:03.190+06:00  INFO 19837 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:10:03.214+06:00  INFO 19837 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:10:03.449+06:00  INFO 19837 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:10:03.470+06:00  INFO 19837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:10:03.582+06:00  INFO 19837 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@373afd6c
-2025-10-24T19:10:03.583+06:00  INFO 19837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:10:04.303+06:00  INFO 19837 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:10:04.335+06:00 ERROR 19837 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-2025-10-24T19:10:04.335+06:00  WARN 19837 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-2025-10-24T19:10:04.335+06:00  INFO 19837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:10:04.339+06:00  INFO 19837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:10:04.346+06:00  INFO 19837 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-24T19:10:04.358+06:00 ERROR 19837 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.bbdev.spring.ApplicationRunner.main(ApplicationRunner.java:13) ~[main/:na]
-Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 14 common frames omitted
-Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:168) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	... 18 common frames omitted
-
-2025-10-24T19:12:47.248+06:00  INFO 20839 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 20839 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:12:47.249+06:00  INFO 20839 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:12:47.547+06:00  INFO 20839 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:12:47.561+06:00  INFO 20839 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:12:47.771+06:00  INFO 20839 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:12:47.810+06:00  INFO 20839 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:12:47.831+06:00  INFO 20839 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:12:48.022+06:00  INFO 20839 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:12:48.039+06:00  INFO 20839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:12:48.146+06:00  INFO 20839 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2415e4c7
-2025-10-24T19:12:48.147+06:00  INFO 20839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:12:48.864+06:00  INFO 20839 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:12:48.892+06:00 ERROR 20839 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-2025-10-24T19:12:48.893+06:00  WARN 20839 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-2025-10-24T19:12:48.893+06:00  INFO 20839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:12:48.896+06:00  INFO 20839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:12:48.902+06:00  INFO 20839 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-24T19:12:48.912+06:00 ERROR 20839 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.bbdev.spring.ApplicationRunner.main(ApplicationRunner.java:13) ~[main/:na]
-Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 14 common frames omitted
-Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [amount] in table [payment]; found [int4 (Types#INTEGER)], but expecting [bigint (Types#BIGINT)]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:168) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	... 18 common frames omitted
-
-2025-10-24T19:14:36.816+06:00  INFO 21558 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 21558 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:14:36.818+06:00  INFO 21558 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:14:37.118+06:00  INFO 21558 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:14:37.132+06:00  INFO 21558 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:14:37.341+06:00  INFO 21558 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:14:37.379+06:00  INFO 21558 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:14:37.399+06:00  INFO 21558 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:14:37.586+06:00  INFO 21558 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:14:37.604+06:00  INFO 21558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:14:37.707+06:00  INFO 21558 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2415e4c7
-2025-10-24T19:14:37.708+06:00  INFO 21558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:14:38.362+06:00  INFO 21558 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:14:38.389+06:00 ERROR 21558 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [varchar(255) (Types#VARCHAR)]
-2025-10-24T19:14:38.390+06:00  WARN 21558 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [varchar(255) (Types#VARCHAR)]
-2025-10-24T19:14:38.390+06:00  INFO 21558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:14:38.392+06:00  INFO 21558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:14:38.398+06:00  INFO 21558 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-24T19:14:38.409+06:00 ERROR 21558 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [varchar(255) (Types#VARCHAR)]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.bbdev.spring.ApplicationRunner.main(ApplicationRunner.java:13) ~[main/:na]
-Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [varchar(255) (Types#VARCHAR)]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 14 common frames omitted
-Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [varchar(255) (Types#VARCHAR)]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:168) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	... 18 common frames omitted
-
-2025-10-24T19:16:16.706+06:00  INFO 22223 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 22223 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:16:16.707+06:00  INFO 22223 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:16:16.996+06:00  INFO 22223 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:16:17.010+06:00  INFO 22223 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:16:17.210+06:00  INFO 22223 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:16:17.249+06:00  INFO 22223 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:16:17.270+06:00  INFO 22223 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:16:17.465+06:00  INFO 22223 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:16:17.482+06:00  INFO 22223 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:16:17.592+06:00  INFO 22223 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fed9976
-2025-10-24T19:16:17.593+06:00  INFO 22223 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:16:18.236+06:00  INFO 22223 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:16:18.263+06:00 ERROR 22223 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [timestamp(6) (Types#TIMESTAMP)]
-2025-10-24T19:16:18.264+06:00  WARN 22223 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [timestamp(6) (Types#TIMESTAMP)]
-2025-10-24T19:16:18.264+06:00  INFO 22223 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:16:18.266+06:00  INFO 22223 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:16:18.272+06:00  INFO 22223 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-24T19:16:18.283+06:00 ERROR 22223 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [timestamp(6) (Types#TIMESTAMP)]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.bbdev.spring.ApplicationRunner.main(ApplicationRunner.java:13) ~[main/:na]
-Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [timestamp(6) (Types#TIMESTAMP)]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 14 common frames omitted
-Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: wrong column type encountered in column [birth_date] in table [users]; found [date (Types#DATE)], but expecting [timestamp(6) (Types#TIMESTAMP)]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateColumnType(AbstractSchemaValidator.java:168) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	... 18 common frames omitted
-
-2025-10-24T19:18:03.098+06:00  INFO 22928 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 22928 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:18:03.099+06:00  INFO 22928 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:18:03.410+06:00  INFO 22928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:18:03.431+06:00  INFO 22928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:18:03.678+06:00  INFO 22928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:18:03.731+06:00  INFO 22928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:18:03.757+06:00  INFO 22928 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:18:03.954+06:00  INFO 22928 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:18:03.971+06:00  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:18:04.075+06:00  INFO 22928 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30a7653e
-2025-10-24T19:18:04.077+06:00  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:18:04.755+06:00  INFO 22928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:18:04.783+06:00 ERROR 22928 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [first_name] in table [users]
-2025-10-24T19:18:04.784+06:00  WARN 22928 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [first_name] in table [users]
-2025-10-24T19:18:04.784+06:00  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:18:04.786+06:00  INFO 22928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-24T19:18:04.793+06:00  INFO 22928 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-24T19:18:04.803+06:00 ERROR 22928 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [first_name] in table [users]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.bbdev.spring.ApplicationRunner.main(ApplicationRunner.java:13) ~[main/:na]
-Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [first_name] in table [users]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 14 common frames omitted
-Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [first_name] in table [users]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	... 18 common frames omitted
-
-2025-10-24T19:19:17.565+06:00  INFO 23464 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 23464 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
-2025-10-24T19:19:17.566+06:00  INFO 23464 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
-2025-10-24T19:19:17.857+06:00  INFO 23464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-24T19:19:17.871+06:00  INFO 23464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2025-10-24T19:19:18.075+06:00  INFO 23464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-24T19:19:18.117+06:00  INFO 23464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2025-10-24T19:19:18.140+06:00  INFO 23464 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-24T19:19:18.334+06:00  INFO 23464 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-24T19:19:18.352+06:00  INFO 23464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-24T19:19:18.454+06:00  INFO 23464 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45592af7
-2025-10-24T19:19:18.455+06:00  INFO 23464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-24T19:19:19.128+06:00  INFO 23464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-24T19:19:19.155+06:00  INFO 23464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-24T19:19:19.160+06:00  INFO 23464 --- [main] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
-2025-10-24T19:19:19.172+06:00  INFO 23464 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T19:19:19.176+06:00  INFO 23464 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T19:19:19.177+06:00  INFO 23464 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
-2025-10-24T19:19:19.177+06:00  INFO 23464 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T19:19:19.195+06:00  INFO 23464 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
-2025-10-24T19:19:19.306+06:00  INFO 23464 --- [main] org.bbdev.spring.ApplicationRunner       : Started ApplicationRunner in 1.998 seconds (process running for 2.37)
-2025-10-24T19:19:19.313+06:00  INFO 23464 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T19:19:19.313+06:00  INFO 23464 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T19:19:19.314+06:00  INFO 23464 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
-2025-10-24T19:19:19.314+06:00  INFO 23464 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-24T19:19:19.315+06:00  INFO 23464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-24T19:19:19.316+06:00  INFO 23464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:16:54.390+06:00  INFO 194561 --- [main] org.bbdev.spring.ApplicationRunner       : Starting ApplicationRunner using Java 19.0.2 with PID 194561 (/home/b_o_k_obb/IdeaProjects/spring-starter/build/classes/java/main started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:16:54.393+06:00  INFO 194561 --- [main] org.bbdev.spring.ApplicationRunner       : The following 1 profile is active: "qa"
+2025-10-28T23:16:54.695+06:00  INFO 194561 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:16:54.709+06:00  INFO 194561 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:16:54.940+06:00  INFO 194561 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:16:54.990+06:00  INFO 194561 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:16:55.016+06:00  INFO 194561 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:16:55.219+06:00  INFO 194561 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:16:55.239+06:00  INFO 194561 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:16:55.364+06:00  INFO 194561 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6401188a
+2025-10-28T23:16:55.365+06:00  INFO 194561 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:16:56.141+06:00  INFO 194561 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:16:56.192+06:00  INFO 194561 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:16:56.197+06:00  INFO 194561 --- [main] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:16:56.202+06:00  INFO 194561 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:16:56.207+06:00  INFO 194561 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:16:56.208+06:00  INFO 194561 --- [main] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:16:56.209+06:00  INFO 194561 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:16:56.230+06:00  INFO 194561 --- [main] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:16:56.390+06:00  INFO 194561 --- [main] org.bbdev.spring.ApplicationRunner       : Started ApplicationRunner in 2.281 seconds (process running for 2.689)
+2025-10-28T23:16:56.401+06:00  INFO 194561 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:16:56.401+06:00  INFO 194561 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:16:56.401+06:00  INFO 194561 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:16:56.401+06:00  INFO 194561 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:16:56.403+06:00  INFO 194561 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:16:56.405+06:00  INFO 194561 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:23:45.642+06:00  INFO 197443 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 197443 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:23:45.643+06:00  INFO 197443 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "qa"
+2025-10-28T23:23:45.949+06:00  INFO 197443 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:23:45.967+06:00  INFO 197443 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:23:46.258+06:00  INFO 197443 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:23:46.301+06:00  INFO 197443 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:23:46.330+06:00  INFO 197443 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:23:46.537+06:00  INFO 197443 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:23:46.557+06:00  INFO 197443 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:23:46.690+06:00  INFO 197443 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e77678c
+2025-10-28T23:23:46.691+06:00  INFO 197443 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:23:47.519+06:00  INFO 197443 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:23:47.556+06:00  INFO 197443 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:23:47.564+06:00  INFO 197443 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:23:47.569+06:00  INFO 197443 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:23:47.575+06:00  INFO 197443 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:23:47.577+06:00  INFO 197443 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:23:47.579+06:00  INFO 197443 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:23:47.601+06:00  INFO 197443 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:23:47.717+06:00  INFO 197443 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.318 seconds (process running for 3.092)
+2025-10-28T23:23:48.088+06:00  INFO 197443 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:23:48.088+06:00  INFO 197443 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:23:48.088+06:00  INFO 197443 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:23:48.088+06:00  INFO 197443 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:23:48.090+06:00  INFO 197443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:23:48.092+06:00  INFO 197443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:28:44.410+06:00  INFO 199052 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 199052 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:28:44.411+06:00  INFO 199052 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "qa"
+2025-10-28T23:28:44.702+06:00  INFO 199052 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:28:44.718+06:00  INFO 199052 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:28:45.003+06:00  INFO 199052 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:28:45.044+06:00  INFO 199052 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:28:45.067+06:00  INFO 199052 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:28:45.271+06:00  INFO 199052 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:28:45.290+06:00  INFO 199052 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:28:45.418+06:00  INFO 199052 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f0677f3
+2025-10-28T23:28:45.419+06:00  INFO 199052 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:28:46.181+06:00  INFO 199052 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:28:46.211+06:00  INFO 199052 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:28:46.218+06:00  INFO 199052 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:28:46.223+06:00  INFO 199052 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:28:46.227+06:00  INFO 199052 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:28:46.229+06:00  INFO 199052 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:28:46.231+06:00  INFO 199052 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:28:46.255+06:00  INFO 199052 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:28:46.375+06:00  INFO 199052 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.191 seconds (process running for 2.916)
+2025-10-28T23:28:46.747+06:00  INFO 199052 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:28:46.784+06:00  INFO 199052 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:28:46.784+06:00  INFO 199052 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:28:46.784+06:00  INFO 199052 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:28:46.784+06:00  INFO 199052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:28:46.786+06:00  INFO 199052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:28:46.788+06:00  INFO 199052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:39:07.429+06:00  INFO 202274 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 202274 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:39:07.431+06:00  INFO 202274 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:39:07.739+06:00  INFO 202274 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:39:07.759+06:00  INFO 202274 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:39:08.081+06:00  INFO 202274 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:39:08.122+06:00  INFO 202274 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:39:08.146+06:00  INFO 202274 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:39:08.364+06:00  INFO 202274 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:39:08.387+06:00  INFO 202274 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:39:08.522+06:00  INFO 202274 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65e4cb84
+2025-10-28T23:39:08.523+06:00  INFO 202274 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:39:09.371+06:00  INFO 202274 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:39:09.412+06:00  INFO 202274 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:39:09.419+06:00  INFO 202274 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:39:09.427+06:00  INFO 202274 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:39:09.433+06:00  INFO 202274 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:39:09.434+06:00  INFO 202274 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:39:09.436+06:00  INFO 202274 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:39:09.460+06:00  INFO 202274 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:39:09.583+06:00  INFO 202274 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.384 seconds (process running for 3.118)
+2025-10-28T23:39:09.928+06:00  INFO 202274 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:39:09.970+06:00  INFO 202274 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:39:09.970+06:00  INFO 202274 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:39:09.970+06:00  INFO 202274 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:39:09.971+06:00  INFO 202274 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:39:09.972+06:00  INFO 202274 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:39:09.975+06:00  INFO 202274 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:40:52.435+06:00  INFO 203083 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 203083 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:40:52.437+06:00  INFO 203083 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:40:52.797+06:00  INFO 203083 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:40:52.817+06:00  INFO 203083 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:40:53.114+06:00  INFO 203083 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:40:53.158+06:00  INFO 203083 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:40:53.186+06:00  INFO 203083 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:40:53.398+06:00  INFO 203083 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:40:53.418+06:00  INFO 203083 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:40:53.547+06:00  INFO 203083 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55951fcd
+2025-10-28T23:40:53.548+06:00  INFO 203083 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:40:54.358+06:00  INFO 203083 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:40:54.393+06:00  INFO 203083 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:40:54.401+06:00  INFO 203083 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:40:54.407+06:00  INFO 203083 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:40:54.416+06:00  INFO 203083 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:40:54.418+06:00  INFO 203083 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:40:54.420+06:00  INFO 203083 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:40:54.445+06:00  INFO 203083 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:40:54.562+06:00  INFO 203083 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.404 seconds (process running for 3.195)
+2025-10-28T23:40:54.935+06:00  INFO 203083 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:40:54.975+06:00  INFO 203083 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:40:54.975+06:00  INFO 203083 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:40:54.975+06:00  INFO 203083 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:40:54.975+06:00  INFO 203083 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:40:54.977+06:00  INFO 203083 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:40:54.979+06:00  INFO 203083 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:43:17.553+06:00  INFO 203939 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 203939 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:43:17.555+06:00  INFO 203939 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:43:17.841+06:00  INFO 203939 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:43:17.858+06:00  INFO 203939 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:43:18.128+06:00  INFO 203939 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:43:18.171+06:00  INFO 203939 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:43:18.194+06:00  INFO 203939 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:43:18.399+06:00  INFO 203939 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:43:18.428+06:00  INFO 203939 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:43:18.571+06:00  INFO 203939 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b5312df
+2025-10-28T23:43:18.573+06:00  INFO 203939 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:43:19.349+06:00  INFO 203939 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:43:19.381+06:00  INFO 203939 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:43:19.387+06:00  INFO 203939 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:43:19.391+06:00  INFO 203939 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:43:19.396+06:00  INFO 203939 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:43:19.397+06:00  INFO 203939 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:43:19.399+06:00  INFO 203939 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:43:19.421+06:00  INFO 203939 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:43:19.540+06:00  INFO 203939 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.215 seconds (process running for 2.951)
+2025-10-28T23:43:19.906+06:00  INFO 203939 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:43:19.942+06:00  INFO 203939 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:43:19.942+06:00  INFO 203939 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:43:19.942+06:00  INFO 203939 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:43:19.942+06:00  INFO 203939 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:43:19.944+06:00  INFO 203939 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:43:19.946+06:00  INFO 203939 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:46:48.973+06:00  INFO 205269 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 205269 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:46:48.975+06:00  INFO 205269 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:46:49.330+06:00  INFO 205269 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:46:49.351+06:00  INFO 205269 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:46:49.658+06:00  INFO 205269 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:46:49.704+06:00  INFO 205269 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:46:49.729+06:00  INFO 205269 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:46:49.931+06:00  INFO 205269 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:46:49.950+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:46:50.078+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1552da16
+2025-10-28T23:46:50.080+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:46:50.819+06:00  INFO 205269 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:46:50.851+06:00  INFO 205269 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:46:50.859+06:00  INFO 205269 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:46:50.863+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:50.869+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:50.871+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:50.873+06:00  INFO 205269 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:46:50.904+06:00  INFO 205269 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:46:51.051+06:00  INFO 205269 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.316 seconds (process running for 3.098)
+2025-10-28T23:46:51.438+06:00  INFO 205269 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:46:51.470+06:00  INFO 205269 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.bbdev.spring.integration.service.UserServiceIT]: UserServiceIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-28T23:46:51.472+06:00  INFO 205269 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.bbdev.spring.ApplicationRunner for test class org.bbdev.spring.integration.service.UserServiceIT
+2025-10-28T23:46:51.497+06:00  INFO 205269 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Starting UserServiceIT using Java 19.0.2 with PID 205269 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:46:51.497+06:00  INFO 205269 --- [Test worker] o.b.s.integration.service.UserServiceIT  : The following 1 profile is active: "qa"
+2025-10-28T23:46:51.576+06:00  INFO 205269 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:46:51.580+06:00  INFO 205269 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:46:51.630+06:00  INFO 205269 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:46:51.631+06:00  INFO 205269 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:46:51.637+06:00  INFO 205269 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:46:51.637+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-28T23:46:51.649+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@20ddc780
+2025-10-28T23:46:51.649+06:00  INFO 205269 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-28T23:46:51.732+06:00  INFO 205269 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:46:51.744+06:00  INFO 205269 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:46:51.745+06:00  INFO 205269 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:46:51.747+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:51.749+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:51.750+06:00  INFO 205269 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:46:51.751+06:00  INFO 205269 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:46:51.754+06:00  INFO 205269 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:46:51.796+06:00  INFO 205269 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Started UserServiceIT in 0.321 seconds (process running for 3.844)
+2025-10-28T23:46:51.808+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.808+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.808+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.808+06:00  INFO 205269 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:46:51.810+06:00  INFO 205269 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:46:51.812+06:00  INFO 205269 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:46:51.816+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.816+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.816+06:00  INFO 205269 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:46:51.816+06:00  INFO 205269 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:46:51.817+06:00  INFO 205269 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-28T23:46:51.838+06:00  INFO 205269 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-28T23:48:37.617+06:00  INFO 206025 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 206025 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:48:37.618+06:00  INFO 206025 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:48:37.956+06:00  INFO 206025 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:48:37.976+06:00  INFO 206025 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:48:38.283+06:00  INFO 206025 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:48:38.331+06:00  INFO 206025 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:48:38.357+06:00  INFO 206025 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:48:38.598+06:00  INFO 206025 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:48:38.624+06:00  INFO 206025 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:48:38.800+06:00  INFO 206025 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1552da16
+2025-10-28T23:48:38.801+06:00  INFO 206025 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:48:39.630+06:00  INFO 206025 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:48:39.663+06:00  INFO 206025 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:48:39.669+06:00  INFO 206025 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:48:39.673+06:00  INFO 206025 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:48:39.678+06:00  INFO 206025 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:48:39.679+06:00  INFO 206025 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:48:39.681+06:00  INFO 206025 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:48:39.703+06:00  INFO 206025 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:48:39.829+06:00  INFO 206025 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.47 seconds (process running for 3.254)
+2025-10-28T23:48:40.209+06:00  INFO 206025 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:48:40.241+06:00  INFO 206025 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.bbdev.spring.integration.service.UserServiceIT]: UserServiceIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-28T23:48:40.243+06:00  INFO 206025 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.bbdev.spring.ApplicationRunner for test class org.bbdev.spring.integration.service.UserServiceIT
+2025-10-28T23:48:40.254+06:00  INFO 206025 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:48:40.255+06:00  INFO 206025 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:48:40.255+06:00  INFO 206025 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:48:40.255+06:00  INFO 206025 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:48:40.257+06:00  INFO 206025 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:48:40.259+06:00  INFO 206025 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:50:30.882+06:00  INFO 206864 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 206864 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:50:30.884+06:00  INFO 206864 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:50:31.201+06:00  INFO 206864 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:50:31.221+06:00  INFO 206864 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:50:31.504+06:00  INFO 206864 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:50:31.547+06:00  INFO 206864 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:50:31.570+06:00  INFO 206864 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:50:31.784+06:00  INFO 206864 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:50:31.804+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:50:31.951+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@108b121f
+2025-10-28T23:50:31.953+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:50:32.712+06:00  INFO 206864 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:50:32.743+06:00  INFO 206864 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:50:32.749+06:00  INFO 206864 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:50:32.755+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:32.759+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:32.761+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:32.762+06:00  INFO 206864 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:50:32.783+06:00  INFO 206864 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:50:32.894+06:00  INFO 206864 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.263 seconds (process running for 3.104)
+2025-10-28T23:50:33.243+06:00  INFO 206864 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:50:33.277+06:00  INFO 206864 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.bbdev.spring.integration.service.UserServiceIT]: UserServiceIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-28T23:50:33.279+06:00  INFO 206864 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.bbdev.spring.ApplicationRunner for test class org.bbdev.spring.integration.service.UserServiceIT
+2025-10-28T23:50:33.300+06:00  INFO 206864 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Starting UserServiceIT using Java 19.0.2 with PID 206864 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:50:33.301+06:00  INFO 206864 --- [Test worker] o.b.s.integration.service.UserServiceIT  : The following 1 profile is active: "test"
+2025-10-28T23:50:33.381+06:00  INFO 206864 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:50:33.384+06:00  INFO 206864 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:50:33.442+06:00  INFO 206864 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:50:33.444+06:00  INFO 206864 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:50:33.449+06:00  INFO 206864 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:50:33.450+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-28T23:50:33.463+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@758ac46
+2025-10-28T23:50:33.463+06:00  INFO 206864 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-28T23:50:33.544+06:00  INFO 206864 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:50:33.558+06:00  INFO 206864 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:50:33.560+06:00  INFO 206864 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:50:33.562+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:33.660+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:33.663+06:00  INFO 206864 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:50:33.667+06:00  INFO 206864 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:50:33.676+06:00  INFO 206864 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:50:33.838+06:00  INFO 206864 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Started UserServiceIT in 0.557 seconds (process running for 4.048)
+2025-10-28T23:50:33.864+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.864+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.864+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.865+06:00  INFO 206864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:50:33.867+06:00  INFO 206864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:50:33.871+06:00  INFO 206864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:50:33.875+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.875+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.875+06:00  INFO 206864 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:50:33.876+06:00  INFO 206864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:50:33.876+06:00  INFO 206864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-28T23:50:33.912+06:00  INFO 206864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-28T23:56:12.996+06:00  INFO 208611 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 208611 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:56:12.997+06:00  INFO 208611 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:56:13.299+06:00  INFO 208611 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:56:13.318+06:00  INFO 208611 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:56:13.585+06:00  INFO 208611 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:56:13.625+06:00  INFO 208611 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:56:13.646+06:00  INFO 208611 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:56:13.848+06:00  INFO 208611 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:56:13.868+06:00  INFO 208611 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:56:13.996+06:00  INFO 208611 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3356ff58
+2025-10-28T23:56:13.997+06:00  INFO 208611 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:56:14.742+06:00  INFO 208611 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:56:14.773+06:00  INFO 208611 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:56:14.782+06:00  INFO 208611 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:56:15.200+06:00  INFO 208611 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:56:15.217+06:00  INFO 208611 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:56:15.220+06:00  INFO 208611 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:56:15.225+06:00  INFO 208611 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:56:15.264+06:00  INFO 208611 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:56:15.489+06:00  INFO 208611 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.724 seconds (process running for 3.543)
+2025-10-28T23:56:15.517+06:00  INFO 208611 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:56:15.561+06:00  INFO 208611 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.bbdev.spring.ApplicationRunner for test class org.bbdev.spring.integration.service.UserServiceIT
+2025-10-28T23:56:15.575+06:00  INFO 208611 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:56:15.576+06:00  INFO 208611 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:56:15.576+06:00  INFO 208611 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:56:15.576+06:00  INFO 208611 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:56:15.578+06:00  INFO 208611 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:56:15.580+06:00  INFO 208611 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:58:27.456+06:00  INFO 209484 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 19.0.2 with PID 209484 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:58:27.457+06:00  INFO 209484 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : The following 1 profile is active: "test"
+2025-10-28T23:58:27.743+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:58:27.761+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:58:28.032+06:00  INFO 209484 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:58:28.075+06:00  INFO 209484 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-28T23:58:28.102+06:00  INFO 209484 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:58:28.316+06:00  INFO 209484 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:58:28.337+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T23:58:28.472+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d0114c0
+2025-10-28T23:58:28.473+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T23:58:29.238+06:00  INFO 209484 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:58:29.271+06:00  INFO 209484 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:29.280+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:29.711+06:00  INFO 209484 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:58:29.729+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:29.732+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:29.736+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:29.794+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:30.060+06:00  INFO 209484 --- [Test worker] o.b.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 2.83 seconds (process running for 3.577)
+2025-10-28T23:58:30.089+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : findById method...
+2025-10-28T23:58:30.130+06:00  INFO 209484 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.bbdev.spring.ApplicationRunner for test class org.bbdev.spring.integration.service.UserServiceIT
+2025-10-28T23:58:30.139+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.139+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.139+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.140+06:00  INFO 209484 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:30.142+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T23:58:30.144+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-28T23:58:30.188+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Starting UserServiceIT using Java 19.0.2 with PID 209484 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:58:30.189+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : The following 1 profile is active: "test"
+2025-10-28T23:58:30.311+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:58:30.316+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:58:30.384+06:00  INFO 209484 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:58:30.387+06:00  INFO 209484 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:58:30.397+06:00  INFO 209484 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:58:30.398+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-28T23:58:30.463+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@46baac0d
+2025-10-28T23:58:30.464+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-28T23:58:30.582+06:00  INFO 209484 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:58:30.594+06:00  INFO 209484 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:30.597+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:30.599+06:00  INFO 209484 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:58:30.602+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:30.604+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:30.605+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:30.610+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:30.665+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Started UserServiceIT in 0.515 seconds (process running for 4.181)
+2025-10-28T23:58:30.673+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.673+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.673+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:30.673+06:00  INFO 209484 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:30.674+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-28T23:58:30.703+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-28T23:58:30.730+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Starting UserServiceIT using Java 19.0.2 with PID 209484 (started by b_o_k_obb in /home/b_o_k_obb/IdeaProjects/spring-starter)
+2025-10-28T23:58:30.730+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : The following 1 profile is active: "test"
+2025-10-28T23:58:30.826+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T23:58:30.829+06:00  INFO 209484 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-10-28T23:58:30.888+06:00  INFO 209484 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T23:58:30.890+06:00  INFO 209484 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T23:58:30.896+06:00  INFO 209484 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T23:58:30.897+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-28T23:58:30.911+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@5955568
+2025-10-28T23:58:30.912+06:00  INFO 209484 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-28T23:58:31.015+06:00  INFO 209484 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T23:58:31.029+06:00  INFO 209484 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:31.031+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:31.033+06:00  INFO 209484 --- [Test worker] o.bbdev.spring.config.JpaConfiguration   : JpaConfiguration init: enable
+2025-10-28T23:58:31.035+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:31.036+06:00  INFO 209484 --- [Test worker] o.b.spring.database.pool.ConnectionPool  : Init connection pool
+2025-10-28T23:58:31.037+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:31.039+06:00  INFO 209484 --- [Test worker] o.b.s.d.repository.CompanyRepository     : init company repository
+2025-10-28T23:58:31.085+06:00  INFO 209484 --- [Test worker] o.b.s.integration.service.UserServiceIT  : Started UserServiceIT in 0.38 seconds (process running for 4.601)
+2025-10-28T23:58:31.093+06:00  INFO 209484 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:31.093+06:00  INFO 209484 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:31.093+06:00  INFO 209484 --- [SpringApplicationShutdownHook] o.b.spring.database.pool.ConnectionPool  : Clean connection pool
+2025-10-28T23:58:31.094+06:00  INFO 209484 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T23:58:31.094+06:00  INFO 209484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-28T23:58:31.134+06:00  INFO 209484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
