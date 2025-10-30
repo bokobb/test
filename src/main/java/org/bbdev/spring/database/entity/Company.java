@@ -1,13 +1,14 @@
 package org.bbdev.spring.database.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Map;
 
+@NamedQuery(
+        name = "Company.findByName",
+        query = "select c from Company c where lower(c.name) = lower(:name)"
+)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

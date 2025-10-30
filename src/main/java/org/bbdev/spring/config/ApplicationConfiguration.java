@@ -1,7 +1,7 @@
 package org.bbdev.spring.config;
 
 import org.bbdev.spring.database.pool.ConnectionPool;
-import org.bbdev.spring.database.repository.CrudRepository;
+import org.bbdev.spring.database.repository.CompanyRepository;
 import org.bbdev.spring.database.repository.UserRepository;
 import org.bbdev.web.config.WebConfiguration;
 import org.springframework.beans.factory.annotation.Value;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
         useDefaultFilters = false,
         includeFilters = {
                 @Filter(type = FilterType.ANNOTATION, value = Component.class),
-                @Filter(type = FilterType.ASSIGNABLE_TYPE, value = CrudRepository.class),
+                @Filter(type = FilterType.ASSIGNABLE_TYPE, value = CompanyRepository.class),
                 @Filter(type = FilterType.REGEX, pattern = "com\\..+Repository")
         })
 public class ApplicationConfiguration {
@@ -33,18 +33,4 @@ public class ApplicationConfiguration {
                 return new ConnectionPool("test-pool", 25);
         }
 
-        @Bean
-        @Profile("prod|web")
-//    ! & |
-        public UserRepository userRepository2(ConnectionPool pool2) {
-                return new UserRepository(pool2);
-        }
-
-        @Bean
-        public UserRepository userRepository3() {
-                var connectionPool1 = pool3();
-                var connectionPool2 = pool3();
-                var connectionPool3 = pool3();
-                return new UserRepository(pool3());
-        }
 }
