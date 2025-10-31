@@ -22,6 +22,7 @@ dependencies {
     implementation 'org.postgresql:postgresql'
     implementation 'org.springframework.data:spring-data-envers'
     implementation 'com.querydsl:querydsl-jpa:5.0.0:jakarta'
+    implementation 'org.liquibase:liquibase-core'
 
     annotationProcessor 'com.querydsl:querydsl-apt:5.0.0:jakarta'
     annotationProcessor 'jakarta.annotation:jakarta.annotation-api:2.1.1'
@@ -33,7 +34,6 @@ dependencies {
 
 def querydslDir = "$buildDir/generated/querydsl"
 
-// ✅ Добавляем её в исходники
 sourceSets {
     main {
         java {
