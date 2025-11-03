@@ -16,7 +16,6 @@ import org.springframework.test.annotation.DirtiesContext;
 public class UserServiceIT {
 
     private final UserService userService;
-    private final ConnectionPool pool1;
 
     @Test
     void test(){

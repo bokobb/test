@@ -1,6 +1,6 @@
 db:
   username: ${username.value:postgres}
-  password: pass
+  password: postgres
   driver: PostgresDriver
   url: postgres:5432
   hosts: localhost,127.0.0.1
@@ -31,13 +31,10 @@ logging:
     path: /
 
 spring:
-  liquibase:
-    enabled: true
-    change-log: classpath:db/changelog/db.changelog-master.yaml
   datasource:
     url: jdbc:postgresql://localhost:5433/postgres
     username: postgres
-    password: pass
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     properties.hibernate:
@@ -47,3 +44,10 @@ spring:
       format_sql: true
       hbm2ddl:
         auto: validate
+    open-in-view: false
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    format:
+      date: iso
